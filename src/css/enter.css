@@ -1,0 +1,45 @@
+#center .con .center_r {
+  margin-right: 120px;
+}
+
+#center .con .center_r .center_rt h3 {
+  float: left;
+}
+
+#center .con .center_r .center_rt p {
+  float: left;
+}
+
+#center .con .center_r .center_rt p a {
+  color: #ccc;
+}
+
+#center .con .center_r .center_rc input {
+  display: block;
+  width: 278px;
+  padding: 0px 5px;
+  border: 1px solid #dedede;
+  color: #999;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+
+#center .con .center_r .center_rc .output {
+  background-color: black;
+  color: #fff;
+}
+
+#center .con .center_r .btn {
+  background-color: #e83917;
+  width: 280px;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 22px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+}

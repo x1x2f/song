@@ -1,0 +1,53 @@
+#center{
+    .con{
+        .center_r{
+            margin-right: 120px;
+
+           .divPhone_t{
+                h3{
+                    float: left;
+                }
+                p{
+                    float:left;
+                   a{
+                    color:#ccc;
+                   }
+                }
+            }
+            .divPhone{
+                input{
+                    display: block;
+                    width: 278px;
+                    padding: 0px 5px;
+                    border: 1px solid #dedede;
+                    color: #999;
+                    font-size: 14px;
+                    height: 30px;
+                    line-height: 30px;
+                }
+            }
+            .divPhone_b{
+                p{
+                    float: right;
+                    margin-right: 10px;
+                }
+                .btn{
+                    // display: block;
+                    background-color: #e83917;
+                    width: 280px;
+                    margin-top: 5px;
+                    color: #fff;
+                    font-size: 22px;
+                    height: 40px;
+                    line-height: 40px;
+                    border: none;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    text-align: center;
+                    
+                }
+            } 
+        }
+        
+    }
+}
