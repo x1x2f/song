@@ -161,6 +161,19 @@
     }
 }
 // 轮播图结束
+#tebuy{
+    .con{
+       ul{
+            height:340px;
+            a{
+                float: left;
+                margin-right: 10px;
+                border:2px solid #ccc;
+            }
+        } 
+    }
+    
+}
 // 中间的内容开始
 #onefloor{
     margin-top: 4px;

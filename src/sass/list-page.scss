@@ -136,8 +136,8 @@
         }
         .center_r{
             border:2px solid #ccc;
-            height:729px;
-            width: 1050px;
+            height:1098px;
+            width: 980px;
             .center_rt1{
                 height: 50px;
                 border-bottom:1px solid #ccc;
@@ -213,10 +213,18 @@
                     }
                 }
             }
-            .center_box{
-                border:1px solid #ccc;
-                width: 260px;
-                height: 280px;
+            ul{
+                a{
+                    float: left;
+                    border:2px solid #ccc;
+                    li{
+                        width: 240px;
+                        height: 311px;
+                    }
+                    // display:block;
+                    // img{float: left;display: block;}
+                    
+                }
             }
         }
     }

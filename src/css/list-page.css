@@ -139,8 +139,8 @@
 
 #center .con .center_r {
   border: 2px solid #ccc;
-  height: 729px;
-  width: 1050px;
+  height: 1098px;
+  width: 980px;
 }
 
 #center .con .center_r .center_rt1 {
@@ -236,8 +236,12 @@
   background-color: red;
 }
 
-#center .con .center_r .center_box {
-  border: 1px solid #ccc;
-  width: 260px;
-  height: 280px;
+#center .con .center_r ul a {
+  float: left;
+  border: 2px solid #ccc;
+}
+
+#center .con .center_r ul a li {
+  width: 240px;
+  height: 311px;
 }
