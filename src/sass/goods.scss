@@ -75,7 +75,7 @@
             position: relative;
             .goodslist{
                 background:#CB3E25;
-                // display: none;
+                display: none;
                 position: absolute;
                 li{
                     // height: 53px;
@@ -128,113 +128,43 @@
     }
 }
 #center{
-    .con{
-        .center_l{
-            width:180px;
-            background-color:yellow;
-            height:729px;
-        }
-        .center_r{
+   .con{
+        .center_1{
+            height: 900px;
             border:2px solid #ccc;
-            height:1098px;
-            width: 980px;
-            .center_rt1{
-                height: 50px;
-                border-bottom:1px solid #ccc;
-                dt{
-                    margin-top: 20px;
-                    float: left;
-                    margin-left: 30px;
-                    height: 20px;
-                    span{
-                        padding:0 10px;
-                    }
-                }
-                dd{
-                    float: left;
-                    margin-right: 20px;
-                    margin-top: 20px;
-                    height: 20px;
-                    span{
-                        padding:0 10px;
-                    }
-                    &:hover{
-                        background-color: red;
-                    }
-                }
-            }
-            .center_rt2{
-                height: 50px;
-                border-bottom:1px solid #ccc;
-                dt{
-                    margin-top: 20px;
-                    float: left;
-                    margin-left: 30px;
-                    height: 20px;
-                    span{
-                        padding:0 10px;
-                    }
-                }
-                dd{
-                    float: left;
-                    margin-right: 20px;
-                    margin-top: 20px;
-                    height: 20px;
-                    span{
-                        padding:0 10px;
-                    }
-                    &:hover{
-                        background-color: red;
-                    }
-                }
-            }
-            .center_rt3{
-                height: 50px;
-                border-bottom:1px solid #ccc;
-                dt{
-                    margin-top: 20px;
-                    float: left;
-                    margin-left: 30px;
-                    height: 20px;
-                    span{
-                        padding:0 10px;
-                    }
-                }
-                dd{
-                    float: left;
-                    margin-right: 20px;
-                    margin-top: 20px;
-                    height: 20px;
-                    span{
-                        padding:0 10px;
-                    }
-                    &:hover{
-                        background-color: red;
-                    }
-                }
-            }
             ul{
-                a{
-                    float: left;
-                    border:2px solid #ccc;
-                    li{
-                        width: 240px;
-                        height: 311px;
-                        h3{
-                            float: left;
-                            margin-right: 10px;
-                        }
-                        span{
-                            color:red;
-                        }
-                    }
-                    // display:block;
-                    // img{float: left;display: block;}
-                    
-                }
+               img{
+                float: left;
+                border:1px solid #ccc;
+
             }
+            .goodzoom{
+                margin-left: 180px;
+            }
+            h4{
+                float: left;
+                margin-top: 20px;
+                margin-left: 180px;
+                color:#000;
+                font-size: 20px;
+                font-weight:bold;
+            }
+            h3{
+                float: left;
+                margin-top: 20px;
+                color:red;
+                font-weight:bold;
+            }
+            span{
+                width:15px;
+                height: 15px;
+                color:blue;
+                font-weight: bold;
+            } 
         }
-    }
+            
+        } 
+   }   
 }
 #foot{
     margin-top: 300px ;

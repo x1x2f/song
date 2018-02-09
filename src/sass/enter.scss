@@ -49,3 +49,96 @@
         
     }
 }
+#foot{
+    margin-top: 300px ;
+    margin-top: 2px solid #ccc;
+    .con{
+        .foot_t{
+            .foot_tt{
+                ul{ 
+                    height:87px;
+                    margin-top:20px;
+                    border-bottom:1px solid #ccc;
+                    li{
+                        float:left;
+                        margin-right:78px;
+                        height:50px;
+                        width:168px;
+                        span{
+                            width:49px;
+                            height:47px;
+                            float:left;
+                        }
+                        h3{
+                            margin-top:10px;
+                            font-size:14px;
+                            color:#000000;
+                            font-weight:bold;
+                        }
+                    }
+                }
+            }
+            .foot_tb{
+                padding-left:10px;
+                padding-top:58px;
+                dl{
+                    float:left;
+                    margin-right:124px;
+
+                    dt{
+                        font-size:14px;
+                        color:#000000;
+                        font-weight:bold;
+                        margin-bottom:10px;
+                    }
+                    dd{
+                        margin-bottom:10px;
+                    }
+                }
+                .code{
+                    h3{
+                        font-size:14px;
+                        color:#000000;
+                        font-weight:bold;
+                        margin-bottom:10px;
+                    }
+                }
+            }
+        }
+        .foot_c{
+            ul{
+                height:35px;background:#444851;
+                padding-left:100px;
+                li{
+                    float:left;
+                    line-height:35px;
+                    &:hover a{
+                        color:#DFDFD0;
+                    }
+                    a{
+                        padding:0 19px;
+                        color:#A3967C;
+                        border-right:1px solid #ccc;
+                    }
+                }
+            }
+        }
+        .foot_b{
+            .foot_bt{
+                margin-top: 10px;
+                p{
+                    text-align: center;
+                    margin-bottom:10px;
+                }
+            }
+            .foot_bb{
+                margin-left: 360px;
+                margin-top: 25px;
+                img{
+                    margin-right:8px;
+                    border:1px solid #ccc;
+                }
+            }
+        }
+    }
+}

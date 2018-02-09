@@ -43,3 +43,102 @@
   cursor: pointer;
   text-align: center;
 }
+
+#foot {
+  margin-top: 300px;
+  margin-top: 2px solid #ccc;
+}
+
+#foot .con .foot_t .foot_tt ul {
+  height: 87px;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#foot .con .foot_t .foot_tt ul li {
+  float: left;
+  margin-right: 78px;
+  height: 50px;
+  width: 168px;
+}
+
+#foot .con .foot_t .foot_tt ul li span {
+  width: 49px;
+  height: 47px;
+  float: left;
+}
+
+#foot .con .foot_t .foot_tt ul li h3 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+
+#foot .con .foot_t .foot_tb {
+  padding-left: 10px;
+  padding-top: 58px;
+}
+
+#foot .con .foot_t .foot_tb dl {
+  float: left;
+  margin-right: 124px;
+}
+
+#foot .con .foot_t .foot_tb dl dt {
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#foot .con .foot_t .foot_tb dl dd {
+  margin-bottom: 10px;
+}
+
+#foot .con .foot_t .foot_tb .code h3 {
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#foot .con .foot_c ul {
+  height: 35px;
+  background: #444851;
+  padding-left: 100px;
+}
+
+#foot .con .foot_c ul li {
+  float: left;
+  line-height: 35px;
+}
+
+#foot .con .foot_c ul li:hover a {
+  color: #DFDFD0;
+}
+
+#foot .con .foot_c ul li a {
+  padding: 0 19px;
+  color: #A3967C;
+  border-right: 1px solid #ccc;
+}
+
+#foot .con .foot_b .foot_bt {
+  margin-top: 10px;
+}
+
+#foot .con .foot_b .foot_bt p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#foot .con .foot_b .foot_bb {
+  margin-left: 360px;
+  margin-top: 25px;
+}
+
+#foot .con .foot_b .foot_bb img {
+  margin-right: 8px;
+  border: 1px solid #ccc;
+}

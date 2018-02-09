@@ -1,0 +1,133 @@
+#top {
+  height: 40px;
+  background-color: #F5F5F5;
+}
+
+#top .top_l ul li {
+  float: left;
+  margin-left: 8px;
+}
+
+#top .top_r ul li {
+  float: left;
+  width: 98px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
+
+#search {
+  height: 124px;
+}
+
+#search .search_l {
+  background: url("../img/logo.jpg");
+  width: 300px;
+  height: 120px;
+}
+
+#search .search_c .search_key {
+  width: 400px;
+  height: 38px;
+  border: 2px solid #CC1D00;
+  margin-top: 36px;
+  padding-left: 10px;
+  color: red;
+  vertical-align: top;
+}
+
+#search .search_c .sub {
+  height: 38px;
+  background-color: #CC1D00;
+  width: 90px;
+  margin-top: 36px;
+}
+
+#search .search_c .goods {
+  height: 16px;
+}
+
+#search .search_c .goods li {
+  height: 16px;
+  float: left;
+  margin-right: 12px;
+}
+
+#search .search_c .goods li a {
+  font-size: 12px;
+  height: 16px;
+  width: 16px;
+}
+
+#search .search_r {
+  background: url("../img/logo2.gif");
+  width: 200px;
+  height: 90px;
+  margin-top: 14px;
+}
+
+#nav {
+  height: 36px;
+}
+
+#nav .con h2 {
+  width: 180px;
+  height: 36px;
+  background-color: #CB351A;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+  position: relative;
+}
+
+#nav .con h2 .goodslist {
+  background: #CB3E25;
+  display: none;
+  position: absolute;
+}
+
+#nav .con h2 .goodslist li {
+  width: 180px;
+  padding-top: 8px;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+#nav .con h2 .goodslist li img {
+  float: left;
+  margin-left: 20px;
+}
+
+#nav .con h2 .goodslist li h3 {
+  color: #fff;
+  padding-right: 10px;
+}
+
+#nav .con h2 .goodslist li p {
+  color: #ccc;
+}
+
+#nav .con h2:hover .goodslist {
+  display: block;
+}
+
+#nav .con .nav_g li {
+  float: left;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+}
+
+#nav .con .nav_g li:hover {
+  border-bottom: 2px solid #CB351A;
+}
+
+#nav .con .nav_g li a {
+  padding: 0 12px;
+}
+
+#nav .con .buycar {
+  width: 200px;
+  height: 36px;
+  background: #F9F9F9;
+  padding-left: 78px;
+  padding-top: 13px;
+}

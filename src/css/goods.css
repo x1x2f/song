@@ -81,6 +81,7 @@
 
 #nav .con h2 .goodslist {
   background: #CB3E25;
+  display: none;
   position: absolute;
 }
 
@@ -131,128 +132,41 @@
   padding-top: 13px;
 }
 
-#center .con .center_l {
-  width: 180px;
-  background-color: yellow;
-  height: 729px;
-}
-
-#center .con .center_r {
-  border: 2px solid #ccc;
-  height: 1098px;
-  width: 980px;
-}
-
-#center .con .center_r .center_rt1 {
-  height: 50px;
-  border-bottom: 1px solid #ccc;
-}
-
-#center .con .center_r .center_rt1 dt {
-  margin-top: 20px;
-  float: left;
-  margin-left: 30px;
-  height: 20px;
-}
-
-#center .con .center_r .center_rt1 dt span {
-  padding: 0 10px;
-}
-
-#center .con .center_r .center_rt1 dd {
-  float: left;
-  margin-right: 20px;
-  margin-top: 20px;
-  height: 20px;
-}
-
-#center .con .center_r .center_rt1 dd span {
-  padding: 0 10px;
-}
-
-#center .con .center_r .center_rt1 dd:hover {
-  background-color: red;
-}
-
-#center .con .center_r .center_rt2 {
-  height: 50px;
-  border-bottom: 1px solid #ccc;
-}
-
-#center .con .center_r .center_rt2 dt {
-  margin-top: 20px;
-  float: left;
-  margin-left: 30px;
-  height: 20px;
-}
-
-#center .con .center_r .center_rt2 dt span {
-  padding: 0 10px;
-}
-
-#center .con .center_r .center_rt2 dd {
-  float: left;
-  margin-right: 20px;
-  margin-top: 20px;
-  height: 20px;
-}
-
-#center .con .center_r .center_rt2 dd span {
-  padding: 0 10px;
-}
-
-#center .con .center_r .center_rt2 dd:hover {
-  background-color: red;
-}
-
-#center .con .center_r .center_rt3 {
-  height: 50px;
-  border-bottom: 1px solid #ccc;
-}
-
-#center .con .center_r .center_rt3 dt {
-  margin-top: 20px;
-  float: left;
-  margin-left: 30px;
-  height: 20px;
-}
-
-#center .con .center_r .center_rt3 dt span {
-  padding: 0 10px;
-}
-
-#center .con .center_r .center_rt3 dd {
-  float: left;
-  margin-right: 20px;
-  margin-top: 20px;
-  height: 20px;
-}
-
-#center .con .center_r .center_rt3 dd span {
-  padding: 0 10px;
-}
-
-#center .con .center_r .center_rt3 dd:hover {
-  background-color: red;
-}
-
-#center .con .center_r ul a {
-  float: left;
+#center .con .center_1 {
+  height: 900px;
   border: 2px solid #ccc;
 }
 
-#center .con .center_r ul a li {
-  width: 240px;
-  height: 311px;
-}
-
-#center .con .center_r ul a li h3 {
+#center .con .center_1 ul img {
   float: left;
-  margin-right: 10px;
+  border: 1px solid #ccc;
 }
 
-#center .con .center_r ul a li span {
+#center .con .center_1 ul .goodzoom {
+  margin-left: 180px;
+}
+
+#center .con .center_1 ul h4 {
+  float: left;
+  margin-top: 20px;
+  margin-left: 180px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#center .con .center_1 ul h3 {
+  float: left;
+  margin-top: 20px;
   color: red;
+  font-weight: bold;
+}
+
+#center .con .center_1 ul span {
+  width: 15px;
+  height: 15px;
+  color: blue;
+  font-weight: bold;
 }
 
 #foot {

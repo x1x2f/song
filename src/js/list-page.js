@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-08 15:40:31
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-08 20:42:28
+* @Last Modified time: 2018-02-09 10:53:02
 */
 
 $(document).ready(function(){
@@ -17,23 +17,6 @@ $(document).ready(function(){
  console.log(goods);
  xhr.onreadystatechange = function(){
     if(xhr.readyState === 4 && arr_status.includes(xhr.status)>=0){
-        // console.log(JSON.parse(xhr.responseText));
-
-
-        // let res =JSON.parse(xhr.responseText);
-
-        // let ul=document.createElement('ul');
-       
-        // ul.innerHTML = `<li ${res.id}>
-        //     <h3>${res.name}</h3>
-        //     <img src="${res.img}" alt="">
-        //     <h5>${res.price}</h5>
-        //     </li>`;
-      
-        // goods.appendChild(ul);
-
-
-
         let res= JSON.parse(xhr.responseText);
         let ul=document.createElement('ul');
         // let price=res[1].add_time;
@@ -45,6 +28,7 @@ $(document).ready(function(){
                 <img src="${item.img}" alt="">
                 <h4>${item.name}:</h4>
                 <h3>${item.price}</h3>
+                <span>前往</span>
             </li></a>`
         }).join('');
 
@@ -64,7 +48,18 @@ xhr.send();
     //         console.log(data);
     //     }
     // })
- 
+    
 
+
+
+    // 点击事件
+    goods.onclick=e=>{
+        if(e.target.tagName.toLowerCase()==='span'){
+            let id=e.target.parentNode.getAttribute('data-id');
+            var params = "?"+id;
+            console.log(params);
+            location.href= "./goods.html"+params;
+        }
+    }
 
 });
